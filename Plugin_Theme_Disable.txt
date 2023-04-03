@@ -1,0 +1,6 @@
+//---Disable installation and deletation of plugins and themes from admin CPanel---//
+
+define('DISALLOW_FILE_EDIT',true);
+define('DISALLOW_FILE_MODS',true);
+
+//The code above must inserted in wp-config.php//
